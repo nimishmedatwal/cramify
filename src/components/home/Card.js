@@ -4,15 +4,22 @@ import "./home.css";
 const Card = (props) => {
   return (
     <>
-    <div className="card">
-      <div className="card_body">
-        <img src={props.img} className="card_image" />
+      <div class="img-card iCard-style1">
+        <div class="card-content">
+          <div class="card-image">
+            <span class="card-title"></span>
+            <img src={props.img} />
+          </div>
+          <div class="card-text">
+            {props.title}
+          </div>
+        </div>
+        <div class="card-link">
+          <a href="./thapar" title="Read Full">
+            <span>Read Full</span>
+          </a>
+        </div>
       </div>
-      <center>
-        <h2 className="card_title">{props.title}</h2>
-      </center>
-      <button className="card_btn">Learn More</button>
-    </div>
     </>
   );
 };
