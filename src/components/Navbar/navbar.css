@@ -1,0 +1,8 @@
+.Navbar{
+    background: linear-gradient(112.83deg, rgba(255, 255, 255, 0.21) 0%, rgba(255, 255, 255, 0) 110.84%);
+    filter: drop-shadow(rgba(0, 0, 0, 0.05) 0px 7px 23px);
+    backdrop-filter: blur(21px);
+    position:fixed;
+    width:100vw;
+    color: aliceblue;
+}
