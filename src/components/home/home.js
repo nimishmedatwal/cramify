@@ -93,6 +93,7 @@ export default function Home() {
         img="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1668459022/Colleges/noimage_hnb7yf.jpg"
         title="Thapar University"
         />
+        
         </Link>
       </div>
     </>
