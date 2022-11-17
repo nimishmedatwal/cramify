@@ -1,82 +1,158 @@
 {
     "first": [
       {
-        "title": "Aryan Garg",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
+        "branch":"Computer Engineering",
+        "link":"firstyearCOE"
       },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title": "Nimish",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      }
+        {
+            "branch":"Electronics and Communication Engineering",
+            "link":"firstyearECED"
+        },
+        {
+            "branch":"Electrical Engineering",
+            "link":"firstyearEIED"
+        },
+        {
+            "branch":"Chemical Engineering",
+            "link":"firstyearCHED"
+        },
+        {
+            "branch":"Mechanical Engineering",
+            "link":"firstyearMED"
+        },
+        {
+            "branch":"Civil Engineering",
+            "link":"firstyearCED"
+        },
+        {
+            "branch":"Mechatronics",
+            "link":"firstyearMT"
+        },
+        {
+            "branch":"Electronics and Computer Engineering",
+            "link":"firstyearENC"
+
+        },
+        {
+            "branch":"Electronics (Information and Control) Engineering",
+            "link":"firstyearEIC"
+        }
     ],
     "second": [
-      {
-        "title": "Aryan Garg",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title": "Nimish",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      }
+        {
+            "branch":"Computer Engineering",
+            "link":"secondyearCOE"
+          },
+            {
+                "branch":"Electronics and Communication Engineering",
+                "link":"secondyearECED"
+            },
+            {
+                "branch":"Electrical Engineering",
+                "link":"secondyearEIED"
+            },
+            {
+                "branch":"Chemical Engineering",
+                "link":"secondyearCHED"
+            },
+            {
+                "branch":"Mechanical Engineering",
+                "link":"secondyearMED"
+            },
+            {
+                "branch":"Civil Engineering",
+                "link":"secondyearCED"
+            },
+            {
+                "branch":"Mechatronics",
+                "link":"secondyearMT"
+            },
+            {
+                "branch":"Electronics and Computer Engineering",
+                "link":"secondyearENC"
+    
+            },
+            {
+                "branch":"Electronics (Information and Control) Engineering",
+                "link":"secondyearEIC"
+            }
     ],
-    "third":[
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title": "Aryan Garg",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      },
-      {
-        "title": "Aryan Garg",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      }
+    "third": [
+        {
+            "branch":"Computer Engineering",
+            "link":"thirdyearCOE"
+          },
+            {
+                "branch":"Electronics and Communication Engineering",
+                "link":"thirdyearECED"
+            },
+            {
+                "branch":"Electrical Engineering",
+                "link":"thirdyearEIED"
+            },
+            {
+                "branch":"Chemical Engineering",
+                "link":"thirdyearCHED"
+            },
+            {
+                "branch":"Mechanical Engineering",
+                "link":"thirdyearMED"
+            },
+            {
+                "branch":"Civil Engineering",
+                "link":"thirdyearCED"
+            },
+            {
+                "branch":"Mechatronics",
+                "link":"thirdyearMT"
+            },
+            {
+                "branch":"Electronics and Computer Engineering",
+                "link":"thirdyearENC"
+    
+            },
+            {
+                "branch":"Electronics (Information and Control) Engineering",
+                "link":"thirdyearEIC"
+            }
     ],
-    "fourth ":[
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title":"Aditya Pathak",
-        "img":"https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810525/42_hau5ba.png"
-      },
-      {
-        "title": "Aryan Garg",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      },
-      {
-        "title": "Nimish",
-        "img": "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1655810454/9_zuzct1.png"
-      }
+    "fourthyearrth": [
+        {
+            "branch":"Computer Engineering",
+            "link":"fourthyearCOE"
+          },
+            {
+                "branch":"Electronics and Communication Engineering",
+                "link":"fourthyearECED"
+            },
+            {
+                "branch":"Electrical Engineering",
+                "link":"fourthyearEIED"
+            },
+            {
+                "branch":"Chemical Engineering",
+                "link":"fourthyearCHED"
+            },
+            {
+                "branch":"Mechanical Engineering",
+                "link":"fourthyearMED"
+            },
+            {
+                "branch":"Civil Engineering",
+                "link":"fourthyearCED"
+            },
+            {
+                "branch":"Mechatronics",
+                "link":"fourthyearMT"
+            },
+            {
+                "branch":"Electronics and Computer Engineering",
+                "link":"fourthyearENC"
+    
+            },
+            {
+                "branch":"Electronics (Information and Control) Engineering",
+                "link":"fourthyearEIC"
+            }
     ]
   }

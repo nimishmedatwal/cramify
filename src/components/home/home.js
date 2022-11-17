@@ -5,6 +5,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import vid from "../../assets/media/background.mp4";
 const options = [
 "Thapar Institute of Engineering and Technology",
 "Punjab Engineering College",
@@ -30,10 +31,6 @@ const colleges = {
     "Metallurgical and Materials Engineering"],
   "IIT Bombay": ["Computer Science and Engineering"]
 }
-const branchoptions = [
-
-];   
-
 
 export default function Home() {
   const [value, setValue] = React.useState(options[0]);
@@ -43,6 +40,9 @@ export default function Home() {
   return (
     <>
       <div className="homepage">
+      <video autoplay muted loop id="myVideo">
+        <source src={vid} type="video/mp4" />
+      </video>
         <div className="heading">
           <h1>Cramify</h1>
         </div>

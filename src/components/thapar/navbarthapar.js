@@ -1,7 +1,7 @@
 import  "./thapar.css";
-import Card from "../home/Card";
-import React, { useState } from "react";
+import React, { useState } from "react"; 
 import data from "./data.json";
+import Cardbranch from "./cardbranch";
 const Navbarthapar = () => {
     const [members, setMembers] = useState([]);
   
@@ -30,15 +30,15 @@ const Navbarthapar = () => {
               </li>
               <li>
                 <p onClick={displayMembers} data-target="fourth">
-                  Forth Year
+                  Fourth Year
                 </p>
               </li>
             </ul>
           </div>
           <div className="members">
-            <div className="wrapper">
+            <div className="cardwrap">
               {members.map((el) => {
-                return <Card img={el.img} title={el.title} />
+                return <Cardbranch branches={el.branch} link={el.link} />
               })}
             </div>
           </div>

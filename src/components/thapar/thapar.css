@@ -32,3 +32,56 @@
     text-decoration: none;
     color: #8c8c8c;
   }
+.cardwrap{
+  padding-top: 5%;
+  /* margin-left: 2%; */
+  display: grid;
+  /* width: 50%; */
+  /* -----------------FIXED HOVER ISSUE------------------------ */
+  /* grid-template-columns: repeat(auto-fit, minmax(10rem, 12rem)); */
+  grid-template-columns: 180px 180px 180px 180px;
+  grid-auto-rows: 220px;
+  /* gap: 5rem; */
+  column-gap: 6rem;
+  row-gap: 3.5rem;
+  justify-content: center;
+  
+}
+.card{
+	position: relative;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2%;
+	padding: 0px;
+	background-position: center;
+	background-size: 100%;
+	background-image: linear-gradient(55deg,#1a1a1a 20%, rgb(99, 151, 194) 40%, rgb(153, 87, 153) 60%, #1a1a1a 80%);
+	width: 250px;
+	height: 200px;
+	border-radius: 20px;
+	background-size: 100%;
+	transition: 1s;
+
+}
+.content{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+	width: 240px;
+	height: 190px;
+	background: #2b2a2a;
+	border-radius: 15px;
+
+	color: white;
+	font-family: roboto, sans-serif;
+	font-size:120%;
+  padding:5%;
+  text-align: center;
+}
+.card:hover{
+	background-position: center;
+	background-size: 1000%;
+	transition: 2s;
+}

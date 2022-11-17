@@ -12,8 +12,8 @@ a:hover, a:visited, a:link, a:active
 }
 
 .homepage{
-    background-image: url("../../assets/image_10_storytelling.png"); 
-    background-size: cover;
+    /* background-image: url("../../assets/image_10_storytelling.png"); 
+    background-size: cover; */
     height: 100vh;
 }
 .arrow{
