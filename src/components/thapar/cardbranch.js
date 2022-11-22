@@ -1,13 +1,13 @@
 
 import React from 'react'
 import "./thapar.css"
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 export default function Cardbranch(props) {
   return (
     <div>
         
             <div className="card">
-            <Link to={props.link}>
+            <Link to={props.link} params={{}}>
                 <div className="content">
                     {props.branches}
                 </div>

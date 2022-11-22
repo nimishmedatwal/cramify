@@ -1,12 +1,23 @@
-import React from 'react'
-import Navbarthapar from './navbarthapar'
+import React from "react";
+import Navbarthapar from "./navbarthapar";
 export default function Thapar() {
   return (
-      <div className="thapar">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        < Navbarthapar/>
+    <div className="thapar">
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <Navbarthapar />
       </div>
-  )
+    </div>
+  );
 }

@@ -16,7 +16,7 @@ const Card = (props) => {
         </div>
         <div class="card-link">
           <a href="./thapar" title="Read Full">
-            <span>Read Full</span>
+            <span>Explore</span>
           </a>
         </div>
       </div>

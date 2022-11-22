@@ -6,17 +6,10 @@ import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import vid from "../../assets/media/background.mp4";
-const options = [
-"Thapar Institute of Engineering and Technology",
-"Punjab Engineering College",
-"Indian Institute of Technology, Roorkee",
-"Indian Institute of Technology, Bombay",
-"Indian Institute of Technology, Delhi",
-"Indian Institute of Technology, Kanpur",
-"Indian Institute of Technology, Kharagpur"
-];
+
 const colleges = {
-  "TIET": ["Computer Science and Engineering",
+  TIET: [
+    "Computer Science and Engineering",
     "Electrical Engineering",
     "Mechanical Engineering",
     "Electronics and Communication Engineering",
@@ -25,24 +18,23 @@ const colleges = {
     "Chemical Engineering",
     "Civil Engineering",
     "Electronics and Instrumentation Engineering",
-    "Metallurgical and Materials Engineering"]
-  ,
-  "IIT roorkee": ["Computer Science and Engineering",
-    "Metallurgical and Materials Engineering"],
-  "IIT Bombay": ["Computer Science and Engineering"]
-}
+    "Metallurgical and Materials Engineering",
+  ],
+  "IIT roorkee": [
+    "Computer Science and Engineering",
+    "Metallurgical and Materials Engineering",
+  ],
+  "IIT Bombay": ["Computer Science and Engineering"],
+};
 
 export default function Home() {
-  const [value, setValue] = React.useState(options[0]);
-  const [inputValue, setInputValue] = React.useState('')
-  const [branchvalue, branchsetValue] = React.useState(options[0]);
-  const [branchinputValue, branchsetInputValue] = React.useState('')
+  const [value, setValue] = React.useState(colleges[0]);
+  const [inputValue, setInputValue] = React.useState("");
+  const [branchvalue, branchsetValue] = React.useState(colleges[0]);
+  const [branchinputValue, branchsetInputValue] = React.useState("");
   return (
     <>
       <div className="homepage">
-      <video autoplay muted loop id="myVideo">
-        <source src={vid} type="video/mp4" />
-      </video>
         <div className="heading">
           <h1>Cramify</h1>
         </div>
@@ -50,6 +42,7 @@ export default function Home() {
           <KeyboardArrowDownIcon sx={{ fontSize: 50, color: "white" }} />
         </div>
         <div className="subheading">Scroll Down</div>
+        
       </div>
       <div className="colleges">
         <div id="stars"></div>
@@ -59,7 +52,7 @@ export default function Home() {
           <h1>Select your College </h1>
         </div>
         <div className="collegeselection">
-        <Autocomplete
+          <Autocomplete
             value={value}
             onChange={(event, newValue) => {
               setValue(newValue);
@@ -70,10 +63,10 @@ export default function Home() {
             }}
             id="controllable-states-demo"
             options={Object.keys(colleges)}
-            sx={{ width: 300, display: 'inline-block' }}
+            sx={{ width: 300, display: "inline-block" }}
             renderInput={(params) => <TextField {...params} label="Colleges" />}
-           />
-           <Autocomplete
+          />
+          <Autocomplete
             branchvalue={branchvalue}
             onChange={(event, newValue) => {
               branchsetValue(newValue);
@@ -84,16 +77,15 @@ export default function Home() {
             }}
             id="controllable-states-demo"
             options={colleges[value]}
-            sx={{ width: 300 , display: 'inline-block' , ml: 5}}
+            sx={{ width: 300, display: "inline-block", ml: 5 }}
             renderInput={(params) => <TextField {...params} label="Branch" />}
-           />
+          />
         </div>
         <Link to="/thapar">
-        <Card 
-        img="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1668459022/Colleges/noimage_hnb7yf.jpg"
-        title="Thapar University"
-        />
-        
+          <Card
+            img="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1668459022/Colleges/noimage_hnb7yf.jpg"
+            title="Thapar University"
+          />
         </Link>
       </div>
     </>

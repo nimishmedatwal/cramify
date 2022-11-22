@@ -5,9 +5,9 @@ import Cardbranch from "./cardbranch";
 const Navbarthapar = () => {
     const [members, setMembers] = useState([]);
   
+    
     function displayMembers(e) {
-      setMembers(data[e.target.dataset.target]);
-      // console.log(members);
+      setMembers(data[e.target.dataset.target]); 
     }
     return (
         <>
