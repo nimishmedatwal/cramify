@@ -19,7 +19,7 @@ a:hover, a:visited, a:link, a:active
 .arrow{
     display:flex;
     align-items:center;
-    justify-content:center; 
+    justify-content:center;
 
 }
 #myVideo{

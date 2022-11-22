@@ -38,7 +38,7 @@ export default function Home() {
         <div className="heading">
           <h1>Cramify</h1>
         </div>
-        <div className="arrow">
+        <div className="arrow bounce">
           <KeyboardArrowDownIcon sx={{ fontSize: 50, color: "white" }} />
         </div>
         <div className="subheading">Scroll Down</div>
