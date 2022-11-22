@@ -42,7 +42,6 @@ export default function Home() {
           <KeyboardArrowDownIcon sx={{ fontSize: 50, color: "white" }} />
         </div>
         <div className="subheading">Scroll Down</div>
-        
       </div>
       <div className="colleges">
         <div id="stars"></div>
